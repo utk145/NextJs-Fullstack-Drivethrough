@@ -1,0 +1,1 @@
+This repo contains my  code/notes/tips of Hitesh Choudhary Nextjs full stack course on [yt](https://youtube.com/playlist?list=PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE)

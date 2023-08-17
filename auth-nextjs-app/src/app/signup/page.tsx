@@ -68,7 +68,7 @@ export default function SingupPage() {
                 <button className="p-2 border border-gray-300 rounded-lg mb-4 " onClick={onSignup}>Join Now</button>
             }
 
-            <Link href="/login">Already have an Account?  <Link href="/login" className="underline"> Login</Link></Link>
+            <Link href="/login">Already have an Account?  <span className="underline"> Login</span></Link>
         </div>
 
 

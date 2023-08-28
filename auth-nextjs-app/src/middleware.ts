@@ -10,7 +10,7 @@ export function middleware(request: NextRequest) {
     // If anybody has a token, the user shouldn't be able to access those public paths
     // First we need to find out what are the paths
     const path = request.nextUrl.pathname;
-    const isPublicPath = path === "/login" || path === '/signup';
+    const isPublicPath = path === "/login" || path === '/signup' || path === '/verifyemail' ;
     // Now access the cookie
     const token = request.cookies.get('token')?.value || "";
 
@@ -33,5 +33,6 @@ export const config = {
         '/profile/:path*',
         '/login',
         '/signup',
+        '/verifyemail'
     ]
 }
